@@ -1,0 +1,11 @@
+//Box solid color variantion creator
+@mixin box-solid-variant($color) {
+    > .box-header {
+        color: #fff;
+        background: $color;
+        background-color: $color;
+        a {
+            color: #444;
+        }
+    }
+}

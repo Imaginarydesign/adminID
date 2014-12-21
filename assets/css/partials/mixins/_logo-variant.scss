@@ -1,0 +1,13 @@
+//Logo color variation
+@mixin logo-variant($color) {
+    background-color: $robin-egg-blue;
+    color: #f9f9f9;
+    // text-transform: uppercase;
+    > a {
+        color: #f9f9f9;
+    }
+
+    &:hover {
+        background: darken($robin-egg-blue, 3%);
+    }
+}

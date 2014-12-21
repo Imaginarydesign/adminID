@@ -1,0 +1,8 @@
+//Bootstrap mixins for progress bars. You can find original copies
+//with the bootstrap assets (www.getbootstrap.com)
+@mixin progress-bar-variant($color) {
+    background-color: $color;
+    .progress-striped & {
+        #gradient > .striped();
+    }
+}

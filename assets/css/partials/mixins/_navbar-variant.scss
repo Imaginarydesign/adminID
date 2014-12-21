@@ -1,0 +1,30 @@
+//Changes the color and the hovering properties of the navbar
+@mixin navbar-variant($color, $font-color: rgba(255, 255, 255, 0.8), $hover-color: #f6f6f6, $hover-bg: rgba(0, 0, 0, 0.1)) {
+    background-color: $color;
+    //Navbar links
+    .nav a {
+        color: $font-color;
+    }
+
+    .nav > li > a:hover,
+        .nav > li > a:active,
+        .nav > li > a:focus,
+        .nav .open > a,
+        .nav .open > a:hover,
+        .nav .open > a:focus {
+        background: $hover-bg;
+        color: $hover-color;
+    }
+
+    .navbar-right > .nav {
+        margin-right: 10px;
+    }
+    //Add color to the sidebar toggle button
+    .sidebar-toggle .icon-bar {
+        background: $font-color;
+
+    }
+    .sidebar-toggle:hover .icon-bar {
+        background: $hover-color!important;
+    }
+}
