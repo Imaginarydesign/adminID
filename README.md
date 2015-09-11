@@ -3,6 +3,8 @@ AdminID
 
 This is a basic admin HTML template partially based on [AdminLTE](https://github.com/almasaeed2010/AdminLTE). It's optimised to work with [Hammer for mac](http://hammerformac.com/) and Sass.
 
+![AdminID](https://github.com/Imaginarydesign/adminID/raw/master/image.png)
+
 **Preview:** [AdminID](http://imaginarydesign.github.io/adminID/)
 
 ## Includes:
